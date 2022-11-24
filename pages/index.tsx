@@ -3,6 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
+import About from "../components/About";
 
 const Home: NextPage = () => {
   return (
@@ -18,7 +19,10 @@ const Home: NextPage = () => {
       <section id="hero" className="snap-center">
         <Hero />
       </section>
-      {/* About */}
+
+      <section id="hero" className="snap-center">
+        <About />
+      </section>
 
       {/* Experience */}
 
